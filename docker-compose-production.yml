@@ -37,4 +37,3 @@ services:
       - /var/lib/mongodb
       - /var/log/mongodb
     entrypoint: /bin/true
-

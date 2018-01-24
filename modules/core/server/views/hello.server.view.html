@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>List Posts</title>
+
+  <!-- load bootstrap assets -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <style>
+
+  .header {
+    margin-top: 1em;
+    margin-left: -1em !important;
+  }
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .reload-text a {
+    color: #292b2c;
+    text-decoration: inherit;
+  }
+
+  .reload-text:hover i {
+    color: #87b5ed;
+  }
+
+  .fullscreen {
+    height: 90%;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+  }
+
+  </style>
+
+</head>
+<body>
+  <div class="row">
+    <div class="col-12 header text-right reload-text">
+      <a href=""><h6>Startup Name Generator  <span><i class="fa fa-repeat" aria-hidden="true"></i></span></h6></a>
+
+    </div>
+  </div>
+
+  <div class="fullscreen">
+    <div class="row">
+      <div class="col-12">
+        <h1 class="display-1 text-center" >{{{unicorn}}} for {{{noun}}} <span><i class="fa {{{icon}}}" aria-hidden="true"></i></span></h1>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="row">
+    <div class="col-12 footer text-center reload-text">
+      <a href=""><h6>— <a href="https://github.com/mikegrieve">Michael Grieve</a> & <a href="https://github.com/c-o-l-o-r">Matt Garnett</a> | © 2018 — </h6></a>
+    </div>
+  </div>
+
+
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+</body>
+</html>
